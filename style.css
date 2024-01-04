@@ -7,18 +7,11 @@
     font-size: 35px;
     font-family: 'Playfair Display', serif;
     margin-right: 50px;
-    margin-top: 30px;
+    margin-top: 20px;
     text-align: center;
 }
 
-.vl {
-    border-left: 6px solid whitesmoke;
-    height: 100%;
-    position: absolute;
-    left: 50%;
-    margin-left: -3px;
-    top: 0;
-  }
+
 
 h1 {
     font-family: 'Playfair Display', serif;
