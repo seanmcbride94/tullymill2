@@ -15,3 +15,7 @@
 h1 {
     font-family: 'Playfair Display', serif;
 }
+
+.image {
+    width: 100%; 
+} 
