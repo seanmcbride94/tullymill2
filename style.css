@@ -21,3 +21,9 @@ h1 {
 .image {
     width: 100%; 
 } 
+
+p {
+    color:whitesmoke;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
