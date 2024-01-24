@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tully Mill</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+          display: flex;
+          flex-direction: column;
+          min-height: 100vh;
+          margin: 0;
+        }
+    
+        main {
+          flex: 1;
+        }
+    
+        .footer {
+          background-color: rgb(22, 41, 55); 
+          padding: 20px;
+          margin-top: auto;
+        }
+      </style>
+</head>
+<body style="background-color: rgba(22, 41, 55, 0.1);">
+
+    <header>
+        <!-- Off-canvas wrapper Navbar -->
+        <div class="offcanvas offcanvas-start p-4" tabindex="-1" id="navbarOffcanvas" aria-labelledby="navbarOffcanvasLabel" style="background-color: rgb(22, 41, 55);">
+          <div class="offcanvas-header">
+            <!-- <h5 class="offcanvas-title" id="navbarOffcanvasLabel">Menu</h5> -->
+            <img src="https://seanmcbride94.github.io/tullymill2/images/LogoDark-01-012.png" alt="logo" style="height: 80px;"/>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <!-- Navbar links -->
+            <ul class="navbar-nav">
+              <li class="nav-item pt-2">
+                <a class="nav-link" href="/index.html">Home</a>
+              </li>
+              <hr>
+              <li class="nav-item pt-2">
+                <a class="nav-link" href="/about.html">About</a>
+              </li>
+              <hr>
+              <li class="nav-item pt-2">
+                <a class="nav-link" href="/menu.html">Menu</a>
+              </li>
+              <hr>
+              <li class="nav-item pt-2">
+                <a class="nav-link" href="/friend.html">Become Our Friend</a>
+              </li>
+              <hr>
+              <li class="nav-item pt-2">
+                <a class="nav-link" href="/location.html">Find Us</a>
+              </li>
+              <hr>
+              <li class="nav-item pt-2">
+                <a class="nav-link" href="http://www.tullymillcottages.com">Cottages</a>
+              </li>
+              <hr>
+              <li class="nav-item pt-2">
+                <a class="nav-link" href="/events.html">Events</a>
+            </li>
+            <hr>
+              <li class="nav-item pt-2">
+                <a class="nav-link" href="https://giveavoucher.co.uk/tullymill">Vouchers</a>
+              </li>
+              <hr>
+              <li class="nav-item pt-2">
+                <a class="nav-link" href="/jobs.html">Join Our Team</a>
+            </li>
+              <hr>
+              <li class="nav-item pt-2">
+                <a class="nav-link" href="/contact.html">Contact Us</a>
+              </li>
+              <hr>
+              <!-- Add more navbar links as needed -->
+    
+              <!-- Example of a dropdown menu -->
+              <!-- <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  More
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Link 3</a></li>
+                </ul>
+              </li> -->
+            </ul>
+          </div>
+        </div>
+    
+         <!-- Navbar -->
+    <nav class="navbar text-sm-center"> <!--justify-content-center text-sm-center -->
+        <div class="container">
+            <div class="col-12 col-md-3">
+                <div class="d-flex flex-column align-items-center">
+                <a href="/index.html"><img src="https://seanmcbride94.github.io/tullymill2/images/LogoDark-01-012.png" alt="logo" style="height: 80px;"/></a>
+            </div>
+            </div>
+            <div class="col-12 col-md-3">
+                <div class="d-flex flex-column align-items-center">
+                <a class="nav-link bordered-link" href="https://tullymill.order-now.menu/order#/collection">ORDER
+                    ONLINE</a>
+                    </div>
+            </div>
+            <div class="col-12 col-md-3">
+                <div class="d-flex flex-column align-items-center">
+                <a class="nav-link" href="/booking.html">MAKE A BOOKING</a>
+                </div>
+            </div>
+            <div class="col-12 col-md-3">
+                <div class="d-flex flex-column align-items-center">
+                <!-- Navbar toggler button for off-canvas -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#navbarOffcanvas" aria-controls="navbarOffcanvas">
+                    <span class="navbar-toggler-icon"></span>
+                    <!-- <span class="material-symbols-outlined">menu</span> -->
+                </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+</header>
+<!--End of navbar-->
+
+      <img src="/images/_DSC7164.jpg" class="img-fluid image"
+            alt="Tapas at Tully Mill" /> 
+
+      <div class="container mt-1 mb-3">
+        <div class="row">
+            <div class="col-md-4">
+                <a href="#collapseExample" class="text-decoration-none" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapseExample" onclick="toggleCollapse('collapseExample')">
+                    <div class="card text-center secondary-colour p-4 border border-light rounded-0">
+                        <span class="material-symbols-outlined">
+                            tapas
+                            </span> FRIDAY TAPAS
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4">
+                <a href="#collapseExample2" class="text-decoration-none" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapseExample" onclick="toggleCollapse('collapseExample2')">
+                    <div class="card text-center secondary-colour p-4 border border-light rounded-0">
+                        <span class="material-symbols-outlined">
+                            restaurant
+                            </span> SATURDAY SET MENU
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4">
+                <a href="#collapseExample3" class="text-decoration-none" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapseExample" onclick="toggleCollapse('collapseExample3')">
+                    <div class="card text-center secondary-colour p-4 border border-light rounded-0">
+                        <span class="material-symbols-outlined">
+                            dinner_dining
+                            </span> SUNDAY LUNCH
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+      <div class="container mt-5">
+        <div class="row">
+            <div class="collapse" id="collapseExample">
+                <div class="card-body mb-4">
+                    <img src="/images/TullyMIllTapasMenu.png" class="img-fluid image" alt="Tapas at Tully Mill" />
+                </div>
+            </div>
+            <div class="collapse" id="collapseExample2">
+                <div class="card-body mb-4">
+                    <img src="/images/setdinnerMenu.png" class="img-fluid image" alt="Set Menu at Tully Mill" />
+                </div>
+            </div>
+            <div class="collapse" id="collapseExample3">
+                <div class="card-body mb-4">
+                    <img src="/images/SundayMenu.png" class="img-fluid image" alt="Sunday at Tully Mill" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mb-5">
+        <div class="row text-center">
+            <h1 class="secondary-text-colour">MENUS</h1>
+        </div>
+        
+        <div class="row">
+            <div class="col-lg-6 mx-auto pt-5">
+
+                <h3 style="color: grey;">Fresh and Locally Sourced</h3>
+            <hr style="color: grey;">
+            <p class="black">With a devotion for top-quality, down-to-earth, great value food and an assurance of keeping it local, we strive to offer a 
+                warm and welcoming dining experience.</p>
+            <p class="black">Our food combines modern flavors with traditional recipes. We serve the best seasonal ingredients, sourced locally where 
+                possible. Our menu is kept as close to home as possible. 
+                We have established a relationship with our neighboring National Trust property Florence Court, with the provision of freshly picked salad, 
+                vegetables and herbs for our dishes from their Walled Garden.</p>
+            <p class="black">On a Friday evening we offer our Tapas menu which consists of an exciting taste of Spanish quisine</p>
+            <p class="black">On a Saturday evening we offer our Dinner menu which consists of higher quality food with a an amuse-bouche soup separating the 
+                starter and main course dishes. For Sunday lunch we offer 
+                Sunday roasts with some specially added extras, all closely accompanied with seasonal vegetables.</p>
+            <p class="black">We take the health of our customers seriously. If you have a food allergy or require information about the allergenic content 
+                of the food, we ask you make yourself known to any 
+                member of the catering staff when visiting our restaurant. Customers should note that whilst we try to ensure all allergens are handled
+                 to maximum safety in 
+                order to keeps things separate, we cannot guarantee that any item is allergen free.</p>
+            </div>
+            <div class="col-lg-6 mx-auto">
+                <img src="/images/Tapas-prawns.jpg" class="mb-5 p-5" alt="tapas" style="height: 600px;" />
+            </div>
+        </div>
+    </div>
+    
+
+    <!-- Footer -->
+<footer class="footer">
+    <div class="container">
+        <div class="row border-top">
+            <!-- Section 1 start -->
+            <div class="col-12 col-md-3 mt-4">
+                <div class="d-flex flex-column align-items-center">
+                    <img src="https://seanmcbride94.github.io/tullymill2/images/LogoDark-01-012.png" alt="logo" style="height: 80px; width: auto; max-width: 100%;" />
+                    <p class="mt-3 text-center">© 2024 Company, Inc. All rights reserved.</p>
+                </div>
+            </div>
+            <!-- Section 1 End -->
+
+            <!-- Section 2 start -->
+            <div class="col-12 col-md-3 mb-4 mt-5">
+                <div class="d-flex flex-column align-items-center">
+                    <p><b>Contact Info</b></p>
+                    <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/>
+                    </svg> +44 (0) 28 6634 9879</p>
+                    <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                        <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z"/>
+                    </svg> info@tullymill.com</p>
+                </div>
+            </div>
+            <!-- Section 2 End -->
+
+            <!-- Section 3 start -->
+            <div class="col-12 col-md-3 mb-4 mt-3">
+                <div class="d-flex flex-column align-items-center">
+                    <a href="https://seanmcbride94.github.io/tullymillcottages/index.html"><img src="https://seanmcbride94.github.io/tullymillcottages/images/TullyMillCottagesLogo.png" alt="Image 1" style="height: 80px; width: auto; max-width: 100%; margin-bottom: 10px;"></a>
+                    <a href="http://www.lillyannes.com/index.php"><img src="https://seanmcbride94.github.io/tullymillcottages/images/extracopy.png" alt="Image 2" style="height: 150px; width: auto; max-width: 100%;"></a>
+                </div>
+            </div>
+            <!--Section 3 End-->
+
+            <!-- Section 4 start -->
+            <div class="col-12 col-md-3 mb-4 mt-5">
+                <ul class="list-unstyled d-flex justify-content-center justify-content-md-end">
+                    <li class="ms-3"><a class="link-body-emphasis" href="https://www.instagram.com/tullymill/"><svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16" style="color: azure;">
+                        <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+                    </svg></a></li>
+                    <li class="ms-3"><a class="link-body-emphasis" href="https://www.facebook.com/TullyMill"><svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16" style="color: azure;">
+                        <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+                    </svg></a></li>
+                </ul>
+            </div>
+            <!-- Section 4 End -->
+        </div>
+    </div>
+</footer>
+<!-- End Footer -->
+    
+      <!-- Bootstrap JS and Popper.js -->
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+
+      <script>
+        function toggleCollapse(targetId) {
+            // Hide all collapses except the one being clicked
+            document.querySelectorAll('.collapse').forEach(function (collapse) {
+                if (collapse.id !== targetId) {
+                    var bsCollapse = new bootstrap.Collapse(collapse, { toggle: false });
+                    bsCollapse.hide();
+                }
+            });
+        }
+    </script>
+    
+</body>
+</html>

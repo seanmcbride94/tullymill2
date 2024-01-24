@@ -1,34 +1,80 @@
-.primary-colour {
+.navbar {
     background-color: rgb(22, 41, 55);
+    color: white;
+    font-size: 30px;
 }
 
-.nav-link {
-    color: whitesmoke;
-    font-size: 20px;
-    font-family: 'Playfair Display', serif;
-    margin-right: 50px;
-    text-align: center;
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.padded-bar {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: rgba(22, 41, 55, 0.7); /* Adjust the background color and opacity as needed */
+    text-align: right;
+    color: aliceblue;
 }
 
 .nav-link:hover {
-    color: gray;
+    color: #bca079;
 }
 
-a:hover {
+.nav-link {
+    color: white;
+}
+
+.navbar-toggler {
+    background-color: white;
+
+}
+
+.navbar-toggler:hover {
+    background-color: #bca079;
+}
+
+.secondary-colour {
+    background-color: #bca079;
+}
+
+.secondary-text-colour {
+    color: #bca079;
+}
+
+.homepage-button {
+    height: 100px;
+    width: 200px;
+    border-color: black;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+hr {
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+.black {
     color: black;
 }
 
-h1 {
-    font-family: 'Playfair Display', serif;
-    color: rgb(22, 41, 55);
+.card {
+    font-size: 20px;
+    color: whitesmoke;
 }
 
-.image {
-    width: 100%; 
-} 
+.card:hover {
+    background-color: rgba(22, 41, 55, 0.9);
+}
 
-p {
-    color:whitesmoke;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-align: center;
+.form-label {
+    color: whitesmoke;
 }
