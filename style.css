@@ -73,6 +73,7 @@ p {
 
 .card:hover {
     background-color: rgba(22, 41, 55, 0.9);
+    color: #bca079;
 }
 
 .form-label {
