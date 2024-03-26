@@ -1,7 +1,12 @@
+body {
+    font-family: 'Calibri', 'Trebuchet MS', sans-serif;
+    background-color: rgb(22, 41, 55);
+}
+
 .navbar {
     background-color: rgb(22, 41, 55);
     color: white;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .image-container {
@@ -15,7 +20,7 @@
     left: 0;
     width: 100%;
     padding: 10px;
-    background-color: rgba(22, 41, 55, 0.7); /* Adjust the background color and opacity as needed */
+    background-color: rgba(22, 41, 55, 0.7); 
     text-align: right;
     color: aliceblue;
 }
@@ -26,6 +31,7 @@
 
 .nav-link {
     color: white;
+    padding-top: 8.6px;
 }
 
 .navbar-toggler {
@@ -35,6 +41,10 @@
 
 .navbar-toggler:hover {
     background-color: #bca079;
+}
+
+.main-colour {
+    background-color: rgb(22, 41, 55);
 }
 
 .secondary-colour {
@@ -59,12 +69,20 @@ hr {
 }
 
 p {
-    color: white;
+    color: #bca079;
 }
 
-.black {
-    color: black;
+a {
+    color: #bca079;
 }
+
+a:hover {
+    color: whitesmoke;
+}
+
+/* .black {
+    color: black;
+} */
 
 .card {
     font-size: 20px;
@@ -77,5 +95,9 @@ p {
 }
 
 .form-label {
+    color: whitesmoke;
+}
+
+.footer p {
     color: whitesmoke;
 }
