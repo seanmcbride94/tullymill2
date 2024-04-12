@@ -74,6 +74,7 @@ p {
 
 a {
     color: #bca079;
+    text-decoration: none;
 }
 
 a:hover {
